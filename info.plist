@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>nyr@obzorefghqvbf.pbz</string>
+	<key>contactName</key>
+	<string>Ale Muñoz</string>
+	<key>description</key>
+	<string>Re-enable the "Save files when focus is lost" preference in TextMate 1</string>
+	<key>name</key>
+	<string>Save on Focus Lost</string>
+	<key>uuid</key>
+	<string>962402C0-7784-4C30-B684-FD50356FF1FE</string>
+</dict>
+</plist>

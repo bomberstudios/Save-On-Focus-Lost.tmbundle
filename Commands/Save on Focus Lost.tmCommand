@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveModifiedFiles</string>
+	<key>command</key>
+	<string></string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>isDisabled</key>
+	<false/>
+	<key>name</key>
+	<string>Save on Focus Lost</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>semanticClass</key>
+	<string>callback.application.did-deactivate</string>
+	<key>uuid</key>
+	<string>9D37E7B4-73A8-4A5F-867F-EAACB8A75374</string>
+	<key>version</key>
+	<integer>2</integer>
+	<key>hideFromUser</key> 
+  <true/>
+</dict>
+</plist>
