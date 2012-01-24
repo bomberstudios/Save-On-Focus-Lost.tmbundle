@@ -5,13 +5,17 @@
 	<key>beforeRunningCommand</key>
 	<string>saveModifiedFiles</string>
 	<key>command</key>
-	<string></string>
+	<string>#!/bin/bash
+source "$TM_SUPPORT_PATH/lib/bash_init.sh" # might not be necessary
+</string>
+	<key>hideFromUser</key>
+	<string>true</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>isDisabled</key>
-	<false/>
+	<string>false</string>
 	<key>name</key>
 	<string>Save on Focus Lost</string>
 	<key>outputCaret</key>
@@ -25,8 +29,6 @@
 	<key>uuid</key>
 	<string>9D37E7B4-73A8-4A5F-867F-EAACB8A75374</string>
 	<key>version</key>
-	<integer>2</integer>
-	<key>hideFromUser</key> 
-  <true/>
+	<string>2</string>
 </dict>
 </plist>
