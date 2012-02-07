@@ -8,4 +8,6 @@ However, it has been replaced by something even more amazing: you can now hook i
 
 This command re-enables the old behaviour (save all unsaved files when focus is lost), but can be easily tweaked to have TextMate save only some types of files (you can fill the 'Scope Selector' with just the file types you want saved, i.e: text.html, source.css...)
 
+Note: you need to be using a recent build. Open Preferences » Software Update and ALT-click the "Check Now" button to get the most recent nightly build.
+
 Enjoy it!
