@@ -14,7 +14,7 @@ This command re-enables the old behaviour (save all unsaved files when focus is 
 - Clone the git repo to  `~/Library/Application Support/Avian/Bundles/`
 - Relaunch TextMate 2
 
-Note: you need to be using a recent build. Open Preferences » Software Update and ALT-click the "Check Now" button to get the most recent nightly build.
+**Note**: you need to be using a recent build. Open Preferences » Software Update and ALT-click the "Check Now" button to get the most recent nightly build (this will grab a latest version than the one you get by just clicking the button).
 
 
 Enjoy it!
