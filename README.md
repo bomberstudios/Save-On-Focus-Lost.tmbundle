@@ -11,7 +11,7 @@ This command re-enables the old behaviour (save all unsaved files when focus is 
 
 ## Installation
 
-- Clone the git repo to  `~/Library/Application Support/Avian/Bundles/`
+- Clone the git repo to  `~/Library/Application Support/TextMate/Managed/Bundles`
 - Relaunch TextMate 2
 
 ## Note
