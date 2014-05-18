@@ -1,5 +1,22 @@
 # Save files when focus is lost
 
+## UPDATE: This has been added natively to TextMate 2.0-alpha.9545 :)
+
+See the commit message on https://github.com/textmate/textmate/commit/42888110fbc664bce8954ad2ebf3160e58db02bf
+
+From the release notes:
+
+> You can now set `saveOnBlur` in `.tm_properties` to make TextMate save files when focus is lost. Previously the recommended way was to create a command set to “Save Modified Files” with a semantic class of `callback.application.did-deactivate`, though incase of a save error, such command would bring up UI where saveOnBlur will ignore errors. Using `.tm_properties` also allows to easily target specific file types, for example one could use:
+>
+>      [ ui/**.php ]
+>      saveOnBlur = true
+>
+> This would then only have .php files in the ui folder auto-save when focus is lost.
+
+The rest of this README (and the code in this repo) is left here for historical reasons :)
+
+## What's this
+
 There's a preference, hidden somewhere deep in TextMate 1, that allows it to save all unsaved files when the application loses the focus.
 
 I loved it for web development, and couldn't believe it was dropped from TextMate 2.
